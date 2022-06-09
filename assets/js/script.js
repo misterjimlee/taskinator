@@ -245,3 +245,5 @@ pageContentEl.addEventListener("click", taskButtonHandler);
 pageContentEl.addEventListener("change", taskStatusChangeHandler);
 
 formEl.addEventListener("submit", taskFormHandler);
+
+loadTasks();
